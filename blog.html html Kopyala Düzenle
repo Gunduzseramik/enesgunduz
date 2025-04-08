@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog | Gündüz Seramik</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfaf6;
+      color: #333;
+    }
+    header, footer {
+      background-color: #d3c4ae;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #bfae9e;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .post {
+      background-color: #fff;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .post h3 {
+      margin-top: 0;
+      color: #5a4c3f;
+    }
+    .post p {
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gündüz Seramik</h1>
+    <p>Topraktan gelen başlangıç</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="hakkimda.html">Hakkımda</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="blog.html">Blog</a>
+    <a href="#">Atölye</a>
+    <a href="#">Mağaza</a>
+    <a href="#">İletişim</a>
+  </nav>
+
+  <section>
+    <h2>Yazılarım & Süreçlerim</h2>
+
+    <div class="post">
+      <h3>Toprakla İlk Temas</h3>
+      <p>
+        Her şey bir çamur parçasına dokunmamla başladı. Toprak, sessizce bana kendi dilini fısıldadı. O gün bugündür, elim hep o dili öğrenmeye çalışıyor...
+      </p>
+    </div>
+
+    <div class="post">
+      <h3>Fırının Kulağı Var</h3>
+      <p>
+        Seramikte sonuç kadar süreç de heyecan verici. Fırına koyarken her zaman içimde bir merak olur. Sanki toprak son kez bana ne söyleyeceğini seçiyor...
+      </p>
+    </div>
+
+    <!-- Yeni yazılar eklenecek -->
+  </section>
+
+  <footer>
+    © 2025 Gündüz Seramik | Tüm hakları saklıdır.
+  </footer>
+
+</body>
+</html>
