@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atölye | Gündüz Seramik</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfaf6;
+      color: #333;
+    }
+    header, footer {
+      background-color: #d3c4ae;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #bfae9e;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .workshop {
+      background-color: #fff;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .workshop h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .workshop p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gündüz Seramik</h1>
+    <p>Topraktan gelen başlangıç</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="hakkimda.html">Hakkımda</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="blog.html">Blog</a>
+    <a href="atolye.html">Atölye</a>
+    <a href="#">Mağaza</a>
+    <a href="#">İletişim</a>
+  </nav>
+
+  <section>
+    <h2>Atölye Bilgileri</h2>
+
+    <div class="workshop">
+      <h3>Seramik Temel Eğitimi</h3>
+      <p>
+        Bu eğitimde, seramiğin temellerini öğrenebilirsiniz. Çamurla çalışmaya başlamak, şekil verme tekniklerini öğrenmek ve ilk eserlerinizi yaratmak için ideal bir başlangıçtır.  
+        <strong>Başlangıç Tarihi:</strong> 15 Mayıs 2025
+      </p>
+    </div>
+
+    <div class="workshop">
+      <h3>İleri Seviye Seramik Atölyesi</h3>
+      <p>
+        İleri düzeyde seramik yapmak isteyenler için kapsamlı bir eğitim. Fırın kullanımı, seramikte yüzey teknikleri ve kendi koleksiyonunu oluşturma gibi konulara odaklanılacaktır.  
+        <strong>Başlangıç Tarihi:</strong> 1 Haziran 2025
+      </p>
+    </div>
+
+    <!-- Yeni eğitimler eklenecek -->
+  </section>
+
+  <footer>
+    © 2025 Gündüz Seramik | Tüm hakları saklıdır.
+  </footer>
+
+</body>
+</html>
